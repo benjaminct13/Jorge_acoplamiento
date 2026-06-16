@@ -1,0 +1,63 @@
+.history-page {
+    width: 100%;
+}
+
+.history-title {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.history-subtitle {
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.history-table-container {
+    overflow-y: auto;
+    max-height: 500px;
+    border-radius: 12px;
+    border: 1px solid #d9d9d9;
+}
+
+.history-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.history-table thead th {
+    background: #3DA648;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    position: sticky;
+    top: 0;
+}
+
+.history-table tbody td {
+    padding: 14px;
+    text-align: center;
+}
+
+.history-table tbody tr:nth-child(even) {
+    background: #f7f7f7;
+}
+
+.history-table tbody tr:nth-child(odd) {
+    background: #ffffff;
+}
+
+.status-normal {
+    color: #198754;
+    font-weight: 600;
+}
+
+.status-warning {
+    color: #f39c12;
+    font-weight: 600;
+}
+
+.empty-state {
+    padding: 40px;
+    text-align: center;
+    color: #666;
+}
